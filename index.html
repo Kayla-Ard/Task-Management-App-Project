@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="./static/alibaba-sans/AlibabaSans-Black.ttf">
 <!-- Coolors Palette Widget -->
 <script src="https://coolors.co/palette-widget/widget.js"></script>
-<script data-id="04904013249817536">new CoolorsPaletteWidget("04904013249817536", ["555b52","536579","c1c7c1","f9e2c8","d6d6d5","29323d"]); </script>
+<script data-id="08240210496800466">new CoolorsPaletteWidget("08240210496800466", ["000000","f10101","0135ce","00bfe3","23007d","f0ec02","4f0142","e65400","db02a3","b6edfa","ffffff"]); </script>
 <title>Task Management To-do List</title>
 
 </head>
@@ -36,7 +36,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" id="nav1" href="login.html">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="login" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
                         <li class="nav-item"><a class="nav-link" id="nav1" href="registration.html">Register</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
@@ -54,22 +54,45 @@
         </nav>
     </header>
 
-<!-- Welcome section -->
-<!-- <section id="welcome" class="text-center my-5">
-    <div class="container">
-        <h1 class="display-4">Welcome to TASK DADDY</h1>
-        <p class="lead"><i>Hard Work. Professional Vibes.</i></p>
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" pattern="[\w]+@[\w]+[.][a-z]{2,3}" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        <div class="mt-3">
+                            <p>Not a member? <a href="registration.html">Sign up here</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-</section> -->
-
 
 <div class="container d-flex justify-content-center" id="photo">
     <div class="row justify-content-between">
         <div class="col-md-12">
             <img 
-                src="./static/images/task_daddy_logo.gif" 
+                src="./static/images/task_daddy_MAIN.png" 
                 class="img-fluid" 
-                alt="Gif logo">
+                alt="Logo">
         </div>
     </div>
 </div>
@@ -85,28 +108,40 @@
     </div>
 </div>
 
+<!-- Footer -->
 <footer class="footer">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-3">
-                <img src="./static/images/task_daddy.png" alt="Footer Image" class="img-fluid">
+    <div class="container footer">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./static/images/task_daddy_logo-transparent.gif" alt="Footer Image" class="img-fluid">
             </div>
-            <div class="col-md-6 text-center">
-                <h5 class="text-uppercase">Task Daddy</h5>
-                <p id="accent-text">Your go-to task management and to-do list solution.</p>
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-4 mt-4">
                 <h5 class="text-uppercase">Contact Us</h5>
-            <ul class="list-unstyled">
-                <li><a href="mailto:info@taskdaddy.com" id="accent-text">info@taskdaddy.com</a></li>
-                <li><a href="tel:+1234567890" id="accent-text">+1 234 567 8901</a></li>
-            </ul>
+                <ul class="list-unstyled">
+                    <li><a href="mailto:info@taskdaddy.com" class="accent-text">info@taskdaddy.com</a></li>
+                    <li><a href="tel:+1234567890" class="accent-text">+1 234 567 8901</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 mt-4">
+                <h5 class="text-uppercase">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="privacy_policy.html" class="accent-text">Privacy Policy</a></li>
+                    <li><a href="terms_of_use.html" class="accent-text">Terms of Use</a></li>
+                    <li><a href="#"><i class="fab fa-facebook" id="fab"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram" id="fab"></i> Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <h5 class="text-uppercase">Task Daddy</h5>
+                <p class="accent">Your go-to task management and to-do list solution.</p>
             </div>
         </div>
     </div>
-<div class="text-center p-3" id="copy-banner">
-    &copy; 2024 TaskDaddy. All rights reserved.
-</div>
+    <div class="text-center p-3" id="copy-banner">
+        &copy; 2024 TaskDaddy. All rights reserved.
+    </div>
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>

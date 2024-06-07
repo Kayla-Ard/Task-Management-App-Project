@@ -1,4 +1,3 @@
-
 /* styling how the dropdown options look */
 .dropdown-options {
     display: none;
@@ -8,7 +7,7 @@
     z-index: 1;
     text-align: left;
     padding: 10px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px #00bfe3;
 }
 
 /* setting the shape of the drop down options */
@@ -18,14 +17,14 @@
 }
 
 .dropdown-options .dropdown-item {
-    color:#536579;
+    color:#f0ec02;
     padding: 8px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-options .dropdown-item:hover {
-    background-color: #c1c7c1;
+    background-color: #db02a3;
 }
 
 /* Navbar custom styling */
@@ -34,15 +33,15 @@
 }
 
 .navbar-toggler {
-    background-color: #536579;
+    background-color:#00bfe3;
 }
 
 #nav1, #navbarDropdown {
-    color: #536579;
+    color:#00bfe3;
 }
 
-body{
-    background-color: #f9e2c8;
+body {
+    background-color:black;
     font-family: 'AlibabaSans', 'sans-serif';
     margin: 0px;
     padding: 0px;
@@ -57,11 +56,15 @@ body{
     font-style: normal;
 }
 
-.footer {
-    background-color:#f9e2c8;
-    color:#536579; 
-    border-top: 2px solid #536579;
+footer {
+    background-color: #000000;
+    color:#db02a3; 
+    border-top: 2px solid #0135ce;
     height: 100%;
+    width: 100%;
+    border-bottom: 2px solid #db02a3;
+    margin: 0;
+    padding: 0;
 }
 
 .footer img {
@@ -69,13 +72,40 @@ body{
     height: auto;
 }
 
-#copy-banner {
-    color: #f9e2c8;
-    background-color: #29323d;
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
-#accent-text {
-    color: #c1c7c1;
+.footer ul {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-block-end: 10px;
+}
+
+.footer ul li a:hover {
+    color:#f0ec02!important;
+}
+
+#copy-banner {
+    color:#f0ec02;
+    background-color:#0135ce;
+    border-top: 2px solid #db02a3;
+}
+
+.accent {
+    color:#0135ce;
+}
+
+.accent-text, #fab {
+    color:#00bfe3;
 }
 
 #photo {
@@ -87,3 +117,21 @@ body{
     width: 700px;
     z-index: -1;
 }
+
+#login {
+    color: #00bfe3;
+}
+
+/* ----- What colors work for text on black background from WebAIM -------
+-- black: #000000 (background)
+-- red: #f10101 (works on black background)
+-- bright blue: #0135ce (doesn't work on black background)
+-- baby blue: #00bfe3 (works GREAT on black background)
+-- purple: #23007d (doesn't work on black background)
+-- yellow: #f0ec02 (works GREAT on black background)
+-- magenta: #4f0142 (doesn't work on black background)
+-- orange: #e65400 (works on black background)
+-- pink: #db02a3 (works on black background)
+-- light blue: #b6edfa (works GREAT on black background)
+-- white: ffffff (works GREAT on black background)
+ */
