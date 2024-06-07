@@ -1,0 +1,56 @@
+
+/* styling how the dropdown options look */
+.dropdown-options {
+    display: none;
+    position: absolute;
+    /* background-color:#536579; */
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* setting the shape of the drop down options */
+.dropdown:hover .dropdown-options {
+    display: block;
+    list-style-type:none;
+}
+
+.dropdown-options .dropdown-item {
+    color:#536579;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-options .dropdown-item:hover {
+    background-color: #c1c7c1;
+}
+
+/* Navbar custom styling */
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    background-color: #536579;
+}
+
+#nav1, #navbarDropdown {
+    color: #536579;
+}
+
+body{
+    background-color: #f9e2c8;
+    font-family: 'AlibabaSans', 'sans-serif';
+}
+
+@font-face {
+    font-family: 'AlibabaSans';
+    src: url('./alibaba-sans/') format('woff2'),
+        url('./alibaba-sans/AlibabaSans-Black.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
