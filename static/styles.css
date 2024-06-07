@@ -44,6 +44,9 @@
 body{
     background-color: #f9e2c8;
     font-family: 'AlibabaSans', 'sans-serif';
+    margin: 0px;
+    padding: 0px;
+    height: 100%
 }
 
 @font-face {
@@ -54,3 +57,33 @@ body{
     font-style: normal;
 }
 
+.footer {
+    background-color:#f9e2c8;
+    color:#536579; 
+    border-top: 2px solid #536579;
+    height: 100%;
+}
+
+.footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+#copy-banner {
+    color: #f9e2c8;
+    background-color: #29323d;
+}
+
+#accent-text {
+    color: #c1c7c1;
+}
+
+#photo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 700px;
+    z-index: -1;
+}
