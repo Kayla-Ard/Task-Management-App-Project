@@ -45,7 +45,7 @@ body {
     font-family: 'AlibabaSans', 'sans-serif';
     margin: 0px;
     padding: 0px;
-    height: 100%
+    height: 100vh;
 }
 
 @font-face {
@@ -59,16 +59,13 @@ body {
 footer {
     background-color: #000000;
     color:#db02a3; 
-    border-top: 2px solid #0135ce;
-    height: 100%;
-    width: 100%;
+    border-top: 2px solid #23007d;
     border-bottom: 2px solid #db02a3;
-    margin: 0;
-    padding: 0;
+    padding: 0px 0;
 }
 
 .footer img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
 }
 
@@ -76,36 +73,44 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
+}
+
+.footer .row {
+    width: 100%;
+}
+
+.footer .row .col-md-4 {
+    text-align: center;
 }
 
 .footer ul {
-    padding-top: 10px;
+    padding: 0;
     list-style: none;
 }
 
 .footer ul li {
     margin-block-end: 10px;
+    font-family: AlibabaSans-Light;
 }
 
 .footer ul li a:hover {
     color:#f0ec02!important;
 }
 
+.footer a {
+    text-decoration: none; 
+    color:#b6edfa; 
+}
+
 #copy-banner {
-    color:#f0ec02;
-    background-color:#0135ce;
+    color:#b6edfa;
+    background-color:#23007d;
     border-top: 2px solid #db02a3;
 }
 
 .accent {
-    color:#0135ce;
-}
-
-.accent-text, #fab {
-    color:#00bfe3;
+    color:#b6edfa;;
+    font-family: AlibabaSans-Light;
 }
 
 #photo {
@@ -121,6 +126,89 @@ footer {
 #login {
     color: #00bfe3;
 }
+
+.blurb-container {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#blurb-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #e65400;
+    color:#b6edfa;
+    margin: 40px auto; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.btn:hover {
+    background-color: #b6edfa;
+    color: #e65400;
+}
+
+.card {
+    width: auto;
+    background-color:#4f0142;
+    border: 3px dashed #b6edfa;
+    color: #b6edfa;
+    font-family: AlibabaSans-Light;
+    font-size: 25px;
+
+}
+
+.features, .awards {
+    color:#f0ec02;
+}
+
+
+#award-1 {
+    height: 300px;
+    width: 250px;
+}
+
+#award-2 {
+    height: 300px;
+    width: 250px;
+}
+
+#award-3 {
+    height: 300px;
+    width: 250px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#top-features-container {
+    border: 2px solid #4f0142;
+}
+
+/* .features-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */
+
 
 /* ----- What colors work for text on black background from WebAIM -------
 -- black: #000000 (background)
