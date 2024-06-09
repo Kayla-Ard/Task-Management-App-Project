@@ -40,12 +40,95 @@
     color:#00bfe3;
 }
 
+/* Modal styling */
+.modal-content {
+    background-color: #000000; /* Black background */
+    color: #00bfe3;
+    box-shadow: 0 8px 16px #00bfe3;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #db02a3; /* Title color */
+    text-align: center;
+    width: 100%;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.form-label {
+    color: #00bfe3;
+}
+
+.form-control {
+    background-color: #222222; /* Darker input background */
+    color: #b6edfa; /* Input text color */
+    border: 1px solid #444444; /* Input border color */
+}
+
+.form-check-label {
+    color: #b6edfa; 
+}
+
+#rememberMe{
+    background-color: #000000;
+    border: 1px solid #e65400;
+}
+
+.btn-primary {
+
+    border: none;
+    width: 100%; /* Full-width button */
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #bf029a; /* Button hover color */
+} */
+
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+.modal-body p a {
+    color: #e65400; /* Hyperlink text color */
+    text-decoration: none;
+}
+
+.modal-body p a:hover {
+    color: #f0ec02; /* Hyperlink hover color */
+}
+
+.modal-dialog {
+    max-width: 400px; /* Adjust width if necessary */
+    margin: 1.75rem auto;
+}
+
+.btn {
+    background-color: #e65400;
+    color:#b6edfa;
+    margin: 40px auto; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #b6edfa;
+    color: #e65400;
+}
+/* END OF MODAL STYLING */
+
 body {
     background-color:black;
     font-family: 'AlibabaSans', 'sans-serif';
-    margin: 0px;
-    padding: 0px;
-    height: 100vh;
 }
 
 @font-face {
@@ -59,9 +142,10 @@ body {
 footer {
     background-color: #000000;
     color:#db02a3; 
-    border-top: 2px solid #23007d;
+    border-top: 2px solid #00bfe3;
     border-bottom: 2px solid #db02a3;
     padding: 0px 0;
+    margin-top: 150px;
 }
 
 .footer img {
@@ -120,7 +204,11 @@ footer {
     align-items: center;
     height: 700px;
     width: 700px;
-    z-index: -1;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #login {
@@ -128,7 +216,6 @@ footer {
 }
 
 .blurb-container {
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -152,62 +239,120 @@ footer {
     border-radius: 5px;
 }
 
-.col-12 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
 .btn:hover {
     background-color: #b6edfa;
     color: #e65400;
 }
 
 .card {
-    width: auto;
-    background-color:#4f0142;
-    border: 3px dashed #b6edfa;
+    background-color: #000000;
     color: #b6edfa;
     font-family: AlibabaSans-Light;
     font-size: 25px;
-
 }
 
-.features, .awards {
-    color:#f0ec02;
+.features {
+    color:#db02a3;
+    text-align: center;
+    font-size: 40px;
 }
 
-
-#award-1 {
-    height: 300px;
-    width: 250px;
-}
-
-#award-2 {
-    height: 300px;
-    width: 250px;
-}
-
-#award-3 {
-    height: 300px;
-    width: 250px;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.awards {
+    color:#db02a3;
 }
 
 #top-features-container {
-    border: 2px solid #4f0142;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-/* .features-container {
+#overview {
+    color:#b6edfa;
+    font-family: AlibabaSans-Light;
+}
+
+#team, #professionals-img{
+    border-radius: 20px;
+    width: auto;
+    border-top: 2px solid #00bfe3;
+}
+
+#team {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-} */
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#professionals {
+    width: 100%;
+    color:#b6edfa;
+    font-family: AlibabaSans-Light;
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+#professionals-img {
+    width: 100%;
+    color:#b6edfa;
+    border-radius: 20px;
+}
+
+#about {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-top: 2px solid #00bfe3;
+    border-bottom: 2px solid #00bfe3;
+    padding-bottom: 30px;
+}
+
+#about-header {
+    color:#db02a3; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    color: #b6edfa;
+    font-family: AlibabaSans-Light;
+}
+
+#award-3 {
+    width: auto;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    max-width: 50%;
+}
+
+#award-2, #award-1 {
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#rec {
+    align-items: center;
+    margin-bottom: 250px;
+    border-top: 2px solid #00bfe3;
+    border-bottom: 2px solid #00bfe3;
+    padding: 40px;
+}
+
+#features {
+    margin-bottom: 250px;
+    margin-top: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ----- What colors work for text on black background from WebAIM -------
