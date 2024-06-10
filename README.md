@@ -9,6 +9,9 @@ Features
 *   **Minimize Meeting Duration Times**: Ensure efficient use of time by minimizing the need for lengthy meetings.
 *   **Ongoing Tracking of Task Progress and Deadlines**: Keep track of task progress and deadlines in real-time.
 *   **Ensuring Adherence to Company Standards and Rules**: Maintain consistency and quality by ensuring adherence to company standards.
+*   **Priority Task Display**: Display priority tasks on the dashboard.
+*   **Task Navigation**: Quick access to various task-related pages from the dashboard.
+*   **Task Creation**: Ability to create new tasks with details such as date, task name, priority, description, team members, and estimated date of completion.
 
 About Task Daddy
 ----------------
@@ -24,8 +27,17 @@ Usage
 -----
 
 1.  Open Task Daddy in your web browser.
-2.  Register for an account or login if you already have one.
-3.  Start creating tasks, assigning them to team members, and tracking their progress.
+2.  Navigate to the task creation page to create new tasks with details such as date, task name, priority, description, team members, and estimated date of completion.
+
+Registration
+------------
+
+To sign up for Task Daddy and start managing your tasks efficiently, follow these steps:
+
+1. Visit the [registration page](link-to-your-registration-page) to create your account.
+2. Fill out the registration form with your full name, email, phone number, and password.
+3. Review the terms and conditions, and if you agree, proceed with the registration.
+4. Once registered, you can log in to Task Daddy using your credentials and start managing your tasks.
 
 Contact Information
 -------------------
@@ -37,6 +49,8 @@ Contact Information
 Quick Links
 -----------
 
-*   Privacy Policy
-*   Terms of Use
+- [Privacy Policy](link-to-privacy-policy)
+- [Terms of Use](link-to-terms-of-use)
+- [Registration Page](link-to-your-registration-page)
+
 
