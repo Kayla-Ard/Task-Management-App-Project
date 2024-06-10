@@ -198,35 +198,6 @@ footer {
     color: #00bfe3;
 }
 
-.blurb-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-#blurb-img {
-    border-radius: 10px;
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.btn {
-    background-color: #e65400;
-    color:#b6edfa;
-    margin: 40px auto; 
-    padding: 10px 20px; 
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background-color: #b6edfa;
-    color: #e65400;
-}
-
 .card {
     background-color: #000000;
     color: #b6edfa;
@@ -240,10 +211,6 @@ footer {
     font-size: 40px;
 }
 
-.awards {
-    color:#db02a3;
-}
-
 #top-features-container {
     text-align: center;
     max-height:60%;
@@ -254,123 +221,32 @@ footer {
     font-family: AlibabaSans-Light;
 }
 
-#team, #professionals-img{
-    border-radius: 20px;
-    width: auto;
-    border-top: 2px solid #00bfe3;
-}
-
-#team {
-    width: 100%;
-    margin-right: 0;
-    padding-right: 0;
-    margin-top: 50px;
-}
-
-#professionals {
-    width: 100%;
-    color:#b6edfa;
-    font-family: AlibabaSans-Light;
-    margin-top: 150px;
-    margin-bottom: 20px;
-}
-
-#professionals-img {
-    width: 100%;
-    color:#b6edfa;
-    border-radius: 20px;
-}
-
-#about {
-    margin-top: 120px;
-    margin-bottom: 120px;
-    border-top: 2px solid #00bfe3;
-    border-bottom: 2px solid #00bfe3;
-    padding-bottom: 30px;
-}
-
-#about-header {
-    color:#db02a3; 
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.about-text {
-    color: #b6edfa;
-    font-family: AlibabaSans-Light;
-}
-
-#award-1 {
-    width: 100%;
-    height: auto;
-    max-width: 600px; /* Adjust the max-width to make the image wider */
-    padding-top: 25px;;
-}
-
-#rec {
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-    border-top: 2px solid #00bfe3;
-    border-bottom: 2px solid #00bfe3;
-    margin-top: 50px;
-    padding-top: 50px; /* Add padding at the top of the section */
-}
-
-#recognition-box {
-    padding-top: 50px; /* Add padding inside the box to create space at the top */
-    padding-bottom: 20px; /* Add padding at the bottom */
-
-}
-
-#recognition-container {
-    padding-top: 20px; /* Add padding inside the container to ensure space */
-    padding-bottom: 20px;
-}
-
-#features {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-/* ----- What colors work for text on black background from WebAIM -------
--- black: #000000 (background)
--- red: #f10101 (works on black background)
--- bright blue: #0135ce (doesn't work on black background)
--- baby blue: #00bfe3 (works GREAT on black background)
--- purple: #23007d (doesn't work on black background)
--- yellow: #f0ec02 (works GREAT on black background)
--- magenta: #4f0142 (doesn't work on black background)
--- orange: #e65400 (works on black background)
--- pink: #db02a3 (works on black background)
--- light blue: #b6edfa (works GREAT on black background)
--- white: ffffff (works GREAT on black background)
- */
-
 h1 {
-    
     color: #db02a3;
-}
+ }
+
  /* priority tasks */
 .ptasks {
     color: #db02a3;
 }
 /* first priority */
 .first {
-    background-color: #0135ce;
-    color: #db02a3;
+    background-color:#db02a3;
+    border: 2px solid;
+    color:#b6edfa;
     font-family: AlibabaSans-Light;
 }
-/* second priority */
 .second {
-    background-color: #0135ce;
-    color: #db02a3;
+    background-color:#db02a3;
+    border: 2px solid;
+    color:#b6edfa;
     font-family: AlibabaSans-Light;
 }
-/* third priority */
+
 .third {
-    background-color: #0135ce;
-    color: #db02a3;
+    background-color:#db02a3;
+    border: 2px solid;
+    color:#b6edfa;
     font-family: AlibabaSans-Light;
 }
 
@@ -385,9 +261,9 @@ h1 {
     background-color: #00bfe3;
 }
 .btnt {
-    color: #000000;
-    border-color: #00bfe3;
-    outline: none;
+   color: #000000;
+   border-color: #00bfe3;
+   outline: none;
 }
 .btnt:hover {
     color: #db02a3;
@@ -401,7 +277,7 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-
+  
 th, td {
     text-align: center;
     color: #b6edfa;
@@ -409,12 +285,12 @@ th, td {
     padding: 10px;
     border: 1px solid #b6edfa;
 }
-
+  
 th {
     background-color: #000000;
     font-weight: bold;
 }
-
+  
 /* Optional: Style for Today's date */
 .today {
     background-color: #f5f5f5;

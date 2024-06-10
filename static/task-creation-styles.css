@@ -184,33 +184,9 @@ footer {
     font-family: AlibabaSans-Light;
 }
 
-#photo {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    width: 700px;
-    margin-bottom: 100px;
-}
 
 #login {
     color: #00bfe3;
-}
-
-.blurb-container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-#blurb-img {
-    border-radius: 10px;
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    margin-bottom: 10px;
 }
 
 .btn {
@@ -234,119 +210,10 @@ footer {
     font-size: 20px;
 }
 
-.features {
-    color:#db02a3;
-    text-align: center;
-    font-size: 40px;
-}
 
-.awards {
+h1 {
     color:#db02a3;
 }
-
-#top-features-container {
-    text-align: center;
-    max-height:60%;
-}
-
-#overview {
-    color:#b6edfa;
-    font-family: AlibabaSans-Light;
-}
-
-#team, #professionals-img{
-    border-radius: 20px;
-    width: auto;
-    border-top: 2px solid #00bfe3;
-}
-
-#team {
-    width: 100%;
-    margin-right: 0;
-    padding-right: 0;
-    margin-top: 50px;
-}
-
-#professionals {
-    width: 100%;
-    color:#b6edfa;
-    font-family: AlibabaSans-Light;
-    margin-top: 150px;
-    margin-bottom: 20px;
-}
-
-#professionals-img {
-    width: 100%;
-    color:#b6edfa;
-    border-radius: 20px;
-}
-
-#about {
-    margin-top: 120px;
-    margin-bottom: 120px;
-    border-top: 2px solid #00bfe3;
-    border-bottom: 2px solid #00bfe3;
-    padding-bottom: 30px;
-}
-
-#about-header {
-    color:#db02a3; 
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.about-text {
-    color: #b6edfa;
-    font-family: AlibabaSans-Light;
-}
-
-#award-1 {
-    width: 100%;
-    height: auto;
-    max-width: 600px; /* Adjust the max-width to make the image wider */
-    padding-top: 25px;;
-}
-
-#rec {
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-    border-top: 2px solid #00bfe3;
-    border-bottom: 2px solid #00bfe3;
-    margin-top: 50px;
-    padding-top: 50px; /* Add padding at the top of the section */
-}
-
-#recognition-box {
-    padding-top: 50px; /* Add padding inside the box to create space at the top */
-    padding-bottom: 20px; /* Add padding at the bottom */
-
-}
-
-#recognition-container {
-    padding-top: 20px; /* Add padding inside the container to ensure space */
-    padding-bottom: 20px;
-}
-
-#features {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-
-/* ----- What colors work for text on black background from WebAIM -------
--- black: #000000 (background)
--- red: #f10101 (works on black background)
--- bright blue: #0135ce (doesn't work on black background)
--- baby blue: #00bfe3 (works GREAT on black background)
--- purple: #23007d (doesn't work on black background)
--- yellow: #f0ec02 (works GREAT on black background)
--- magenta: #4f0142 (doesn't work on black background)
--- orange: #e65400 (works on black background)
--- pink: #db02a3 (works on black background)
--- light blue: #b6edfa (works GREAT on black background)
--- white: ffffff (works GREAT on black background)
- */
 
 .form-control {
     background-color: #222222; /* Darker input background */
@@ -356,22 +223,21 @@ footer {
 
 #priority {
     color: #00bfe3;
- }
+}
 
- 
+
 .valid-feedback  {
     color:#db02a3;
     
 }
 .invalid-feedback{
     color: #00bfe3;
-   
+
 }
 
 .was-validated {
-            color: white;;
+        color: white;;
         font-family: AlibabaSans-Light;
-   
 }
 
 #date {
@@ -391,3 +257,24 @@ footer {
     background-color: #b6edfa;
     color: #e65400;
 }
+
+/* Override Bootstrap's validation styles */
+.form-control:invalid {
+    border-color: #b6edfa !important;
+    box-shadow: none !important;
+}
+
+.form-control:invalid:focus {
+    border-color: #b6edfa !important;
+    box-shadow: none !important;
+}
+
+/* Change color of validation icon */
+.was-validated .form-control:invalid ~ .invalid-feedback::after {
+    filter: hue-rotate(60deg) brightness(80%);
+}
+
+
+
+
+
