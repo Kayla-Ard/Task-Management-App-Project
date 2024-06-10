@@ -45,3 +45,22 @@ Contact Information
 *   **Email**: info@taskdaddy.com
 *   **Phone**: +1 234 567 8901
 *   **Address**: 123 Task Daddy Way, New York, NY 10001
+
+
+**Below are screen shots of different areas of the website as well as our wireframes/prototypes**
+![screenshot of webpage](./static/images/logo_navbar.png)
+![screenshot of webpage](./static/images/modale.png)
+![screenshot of webpage](./static/images/features.png)
+![screenshot of webpage](./static/images/rec_and_blurb.png)
+![screenshot of webpage](./static/images/footer.png)
+![screenshot of webpage](./static/images/reviews.png)
+![screenshot of webpage](./static/images/create_task.png)
+![screenshot of webpage](./static/images/dashboard.png)
+![screenshot of webpage](./static/images/privacy_pol.png)
+![screenshot of webpage](./static/images/reg_header.png)
+![screenshot of webpage](./static/images/register.png)
+![screenshot of webpage](./static/images/task_details.png)
+![screenshot of webpage](./static/images/terms_of_use.png)
+
+![wireframe/prototype](./static/images/all_wireframes_and_prototypes.png)
+![wireframe/prototype](./static/images/Home_page_wireframe_and_prototype.png)
