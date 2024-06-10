@@ -45,12 +45,3 @@ Contact Information
 *   **Email**: info@taskdaddy.com
 *   **Phone**: +1 234 567 8901
 *   **Address**: 123 Task Daddy Way, New York, NY 10001
-
-Quick Links
------------
-
-- [Privacy Policy](link-to-privacy-policy)
-- [Terms of Use](link-to-terms-of-use)
-- [Registration Page](link-to-your-registration-page)
-
-
